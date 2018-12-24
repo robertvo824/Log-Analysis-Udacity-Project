@@ -31,46 +31,32 @@ Open the text-based interface for your operating system (e.g. the terminal windo
 Bringing the VM up
 Bring up the VM with the following command:
 
-'''
-vagrant up
-'''
+```vagrant up```
 The first time you run this command, it will take awhile, as Vagrant needs to download the VM image.
 
 You can then log into the VM with the following command:
 
-'''
-vagrant ssh
-'''
+```vagrant ssh```
 More detailed instructions for installing the Vagrant VM can be found here.
 
 Make sure you're in the right place
 Once inside the VM, navigate to the tournament directory with this command:
 
-'''
-cd /vagrant
-'''
+```cd /vagrant```
 Load the logs into the database
 First, unzip the zip file with the command:
 
-'''
-unzip newsdata.zip
-'''
+```unzip newsdata.zip```
 Then run the following command to load the logs into the database:
 
-'''
-psql -d news -f newsdata.sql
-'''
+```psql -d news -f newsdata.sql```
 Running the reporting tool
 The logs reporting tool is executed with the following command:
 
-'''
-python3 logs_analysis_tool.py
-'''
+```python3 logs_analysis_tool.py```
 The answers to the three questions should now be displayed.
 
 Shutting the VM down
 When you are finished with the VM, press Ctrl-D to log out of it and shut it down with this command:
 
-'''
-vagrant halt
-'''
+```vagrant halt```
