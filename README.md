@@ -13,7 +13,7 @@ Build an internal reporting tool that will use information from a news database 
 * Python
 
 ### Tools Preparation<br>
-1. Install [Vagrant](https://www.vagrantup.com/) and 
+1. Install [Vagrant](https://www.vagrantup.com/)<br> 
 2. Install [VirtualBox](https://www.virtualbox.org/)<br>
 3. Download or clone from Github the necessary setup files from [fullstack-nandegree-vm repository](https://github.com/udacity/fullstack-nanodegree-vm)</br>
 4. Download the database setup file - [Download data here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
