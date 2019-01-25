@@ -19,7 +19,7 @@ Build an internal reporting tool that will use information from a news database 
 4. Download the database setup file - [Download data here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
 5. Unzip the file after downloading it.
 6. Find the file, newsdata.sql, and put it into the vagrant directory which is shared with your virtual machine
-7. Download this reporting tool - [Logs Analysis Tool]
+7. Download this reporting tool - [Logs Analysis Tool](https://github.com/robertvo824/Log-Analysis-Udacity-Project)
 8. Copy the files into the vagrant directory
 
 ### Start the VM<br>
